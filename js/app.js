@@ -8,7 +8,7 @@ function myFunction() {
 
     if (flag === false) {
         element.classList.add("hide-logo");
-        document.getElementsByClassName("navbar-toggler-icon")[0].style.backgroundImage = "url('../images/toggletwo.png')";
+        document.getElementsByClassName("navbar-toggler-icon")[0].style.backgroundImage = "url('images/toggletwo.png')";
         desktop.style.display = "none";
         footer.style.display = "block";
         footer.classList.add("mobile-footer");
@@ -17,7 +17,7 @@ function myFunction() {
         footer.classList.remove("mobile-footer");
         footer.style.display = "none";
         element.classList.remove("hide-logo");
-        document.getElementsByClassName("navbar-toggler-icon")[0].style.backgroundImage = "url('../images/menu.png')";
+        document.getElementsByClassName("navbar-toggler-icon")[0].style.backgroundImage = "url('images/menu.png')";
         desktop.style.display = "block";
         flag = false;
     }
