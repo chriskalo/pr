@@ -1,0 +1,32 @@
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+  font: normal normal 800 18px/140px Montserrat;
+  color: white;
+  background-color: black;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #b4ff00;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+a:hover {
+  color: rgb(255, 255, 255) !important;
+}
+
+.container-fluid {
+  background-color: black;
+  height: 64px;
+}
