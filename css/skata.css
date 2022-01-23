@@ -62,6 +62,7 @@ a:hover {
   .header-text {
     top: 100px !important;
     left: 50px !important;
+    max-width: 250px !important;
   }
   .woman-photo {
     float: none !important;
